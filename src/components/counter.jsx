@@ -4,6 +4,18 @@ import Badge from "react-bootstrap/Badge";
 import Button from "react-bootstrap/Button";
 
 class Counter extends Component {
+  componentDidUpdate(prevProps, prevState) {
+    console.log("prevProps", prevProps);
+    console.log("prevState", prevState);
+    if (prevProps.counter.value !== this.props.counter.value) {
+      //Ajax call and get neww data
+    }
+  }
+
+  componentWillUnmount() {
+    console.log("counter - unmount");
+  }
+
   render() {
     return (
       <div>
