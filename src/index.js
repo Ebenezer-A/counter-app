@@ -11,6 +11,6 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <Counters />
+    <App />
   </StrictMode>
 );

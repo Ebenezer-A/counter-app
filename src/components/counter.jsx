@@ -25,7 +25,7 @@ class Counter extends Component {
   }
 
   getBadgeClasses() {
-    let classes = "badge m-1 badge-";
+    let classes = "m-2 bg-";
     classes += this.props.counter.value === 0 ? "warning" : "primary";
     return classes;
   }
