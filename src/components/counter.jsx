@@ -8,7 +8,7 @@ class Counter extends Component {
     console.log("prevProps", prevProps);
     console.log("prevState", prevState);
     if (prevProps.counter.value !== this.props.counter.value) {
-      //Ajax call and get neww data
+      //Ajax call and get new data
     }
   }
 
